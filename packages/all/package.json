@@ -1,0 +1,14 @@
+{
+  "name": "@ihaoze/eslint-config",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lihaozecq <lihaozecq@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ihaoze/eslint-config-react": "workspace:*"
+  }
+}

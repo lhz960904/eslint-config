@@ -1,0 +1,28 @@
+{
+  "name": "@ihaoze/eslint-config-react",
+  "version": "0.0.3",
+  "description": "",
+  "author": "lihaozecq <lihaozecq@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eslint-plugin-react": "^7.29.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "react": "^18.0.0",
+    "typescript": "^4.6.3"
+  }
+}
